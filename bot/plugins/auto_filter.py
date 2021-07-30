@@ -138,7 +138,7 @@ async def auto_filter(bot, update):
         Send_message=await bot.send_video(
                 chat_id = update.chat.id,
                 video="https://telegra.ph/file/3e9f7db0c98e6b236c2c7.mp4",
-                caption=f"Couldn't Find This Movie.Please Try Again Or Search On Our <b><a href='https://t.me/UFStudio2'>Channel</a></b>. \n\nഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺",
+                caption=f"Couldn't Find This Movie.Please Try Again Or Search On Our <b><a href='https://t.me/parkboyschat'>Channel</a></b>. \n\nഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺",
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
