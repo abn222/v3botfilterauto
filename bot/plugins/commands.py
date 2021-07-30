@@ -30,14 +30,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = f"{file_name} \n @parkboyschat",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/UFSChatBot"
+                                    '🎭 ℙ𝕒𝕣𝕜 𝕄𝕠𝕧𝕚𝕖𝕤 🎉', url="https://t.me/parkboyschat"
                                 )
                         ]
                     ]
